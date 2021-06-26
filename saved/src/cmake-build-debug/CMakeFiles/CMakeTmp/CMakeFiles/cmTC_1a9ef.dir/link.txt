@@ -1,0 +1,3 @@
+"D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1a9ef.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_1a9ef.dir/objects.a @CMakeFiles\cmTC_1a9ef.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_1a9ef.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a9ef.exe -Wl,--out-implib,libcmTC_1a9ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
