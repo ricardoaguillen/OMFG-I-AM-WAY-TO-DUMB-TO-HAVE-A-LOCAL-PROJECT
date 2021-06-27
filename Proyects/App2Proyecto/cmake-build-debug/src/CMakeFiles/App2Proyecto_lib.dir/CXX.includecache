@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.cpp
+Analisis1.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.h
+vector
+-
+string
+-
+regex
+-
+ListOfPatients.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
+ListOfDiseases.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfDiseases.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Disease.h
+string
+-
+sstream
+-
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfDiseases.h
+vector
+-
+string
+-
+sstream
+-
+Disease.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Disease.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
+Patient.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Patient.h
+vector
+-
+sstream
+-
+string
+-
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Patient.h
+string
+-
+sstream
+-
+vector
+-
+Person.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Person.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Person.h
+string
+-
+sstream
+-
+
