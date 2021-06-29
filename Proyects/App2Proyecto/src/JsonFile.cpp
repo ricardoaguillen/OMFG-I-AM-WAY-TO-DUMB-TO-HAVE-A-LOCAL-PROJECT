@@ -4,7 +4,7 @@
 //  - Royer Zuñiga Villarreal.
 //  - Maria Angelica Robles.
 //
-#include "Json.h"
+#include "JsonFile.h"
 
 void to_json(json &_json, const ListOfPatients &listOfPatients) {
     json jPatient;
@@ -37,39 +37,14 @@ void from_json(const json &_json, ListOfPatients &list_) {
     list_.setPatients(listOfPatients.getPatients());
 }
 
-std::string Json::serialize(ListOfPatients &listOfPatients) {
+std::string JsonFile::serialize(ListOfPatients &listOfPatients) {
     json jsonData(listOfPatients);
     std::string jsonArray = jsonData.dump(4);
     return jsonArray;
 }
 
-ListOfPatients Json::deserialize(const std::string &_data) {
+ListOfPatients JsonFile::deserialize(const std::string &_data) {
     json jsonData = json::parse(_data);
     ListOfPatients patientList = jsonData;
     return patientList;
-}
-
-void Json::save(const std::string &jsonData, const std::string &filename) {
-    std::ofstream file(filename, std::ofstream::out);
-    file << jsonData;
-    file.close();
-}
-
-std::string Json::read(const std::string &filename) {
-    std::string txtContent;
-    try {
-        std::ifstream file(filename);
-        file.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-
-        std::stringstream buffer;
-        buffer << file.rdbuf();
-        std::string fileContent(buffer.str());
-        txtContent = fileContent;
-    }
-
-    catch (std::ifstream::failure e) {
-        throw std::runtime_error("Exception opening/reading/closing file");
-    }
-
-    return txtContent;
 }

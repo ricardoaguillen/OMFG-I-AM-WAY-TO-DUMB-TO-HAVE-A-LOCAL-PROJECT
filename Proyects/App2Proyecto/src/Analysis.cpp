@@ -1,17 +1,18 @@
 //
-// Created by Madera_Eonica on 18/6/2021.
+// Created by Madera_Eonica on 28/6/2021.
 //
 
-#include "Analisis1.h"
+#include "Analysis.h"
 
-std::string Analisis1::task(Patient patient) {
-    std::stringstream stringstreamSusceptibility;
-    stringstreamSusceptibility << "Diseases Sorted From Most to Least: " << std::endl;
-    stringstreamSusceptibility << sortDiseases(parseDiseases(patient.getPossibleDisease()));
-    return stringstreamSusceptibility.str();
+Analysis::Analysis() {
+
 }
 
-std::vector<std::string> Analisis1::parseDiseases(std::string diseases) {
+Analysis::~Analysis() {
+
+}
+
+std::vector<std::string> Analysis::parseDiseases(std::string diseases) {
     std::vector<std::string> diseaseVec;
     std::string diseaseName;
     int trackNum = 0;
@@ -30,8 +31,4 @@ std::vector<std::string> Analisis1::parseDiseases(std::string diseases) {
     return diseaseVec;
 }
 
-std::string Analisis1::sortDiseases(std::vector<std::string> diseases) {
-    std::stringstream strShowSortedDiseases;
 
-    return strShowSortedDiseases.str();
-}

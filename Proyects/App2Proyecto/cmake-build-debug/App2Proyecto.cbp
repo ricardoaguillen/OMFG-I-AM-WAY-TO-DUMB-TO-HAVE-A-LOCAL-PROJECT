@@ -426,27 +426,35 @@
 		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/lib/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.cpp">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.cpp">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.h">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis2.cpp">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.cpp">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis2.h">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.h">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis3.cpp">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.cpp">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis3.h">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.h">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.cpp">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.h">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
@@ -458,6 +466,22 @@
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/BinaryProxy.cpp">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/BinaryProxy.h">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/CsvFile.cpp">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/CsvFile.h">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
 		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Disease.cpp">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
@@ -466,11 +490,19 @@
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Json.cpp">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonAdapter.cpp">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>
-		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Json.h">
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonAdapter.h">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonFile.cpp">
+			<Option target="App2Proyecto_run"/>
+			<Option target="App2Proyecto_lib"/>
+		</Unit>
+		<Unit filename="D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonFile.h">
 			<Option target="App2Proyecto_run"/>
 			<Option target="App2Proyecto_lib"/>
 		</Unit>

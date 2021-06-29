@@ -23,9 +23,11 @@ tst/CMakeFiles/App2Proyecto_tst.dir/Analisis1TEST.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../lib/nlohmann/json.hpp
- ../src/Analisis1.h
+ ../src/Analysis.h
+ ../src/Analysis1.h
  ../src/Disease.h
- ../src/Json.h
+ ../src/JsonAdapter.h
+ ../src/JsonFile.h
  ../src/ListOfDiseases.h
  ../src/ListOfPatients.h
  ../src/Patient.h
@@ -53,8 +55,10 @@ tst/CMakeFiles/App2Proyecto_tst.dir/Analisis2TEST.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../lib/nlohmann/json.hpp
- ../src/Analisis2.h
- ../src/Json.h
+ ../src/Analysis.h
+ ../src/Analysis2.h
+ ../src/JsonAdapter.h
+ ../src/JsonFile.h
  ../src/ListOfPatients.h
  ../src/Patient.h
  ../src/Person.h
@@ -80,11 +84,12 @@ tst/CMakeFiles/App2Proyecto_tst.dir/Analisis3TEST.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- ../src/Analisis1.h
- ../src/Analisis3.h
- ../src/BinaryFile.h
- ../src/CsvFile.h
+ ../lib/nlohmann/json.hpp
+ ../src/Analysis.h
+ ../src/Analysis3.h
  ../src/Disease.h
+ ../src/JsonAdapter.h
+ ../src/JsonFile.h
  ../src/ListOfDiseases.h
  ../src/ListOfPatients.h
  ../src/Patient.h
@@ -113,7 +118,9 @@ tst/CMakeFiles/App2Proyecto_tst.dir/BinaryTEST.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../lib/nlohmann/json.hpp
  ../src/BinaryFile.h
- ../src/Json.h
+ ../src/BinaryProxy.h
+ ../src/JsonAdapter.h
+ ../src/JsonFile.h
  ../src/ListOfPatients.h
  ../src/Patient.h
  ../src/Person.h
@@ -140,7 +147,8 @@ tst/CMakeFiles/App2Proyecto_tst.dir/JsonTEST.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../lib/nlohmann/json.hpp
- ../src/Json.h
+ ../src/JsonAdapter.h
+ ../src/JsonFile.h
  ../src/ListOfPatients.h
  ../src/Patient.h
  ../src/Person.h

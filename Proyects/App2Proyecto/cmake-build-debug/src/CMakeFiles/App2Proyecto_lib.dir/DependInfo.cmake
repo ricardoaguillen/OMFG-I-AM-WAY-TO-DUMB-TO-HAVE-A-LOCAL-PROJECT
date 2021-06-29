@@ -4,12 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analisis1.cpp.obj"
-  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis2.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analisis2.cpp.obj"
-  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis3.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analisis3.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analysis.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analysis1.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analysis2.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Analysis3.cpp.obj"
   "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/BinaryFile.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/BinaryFile.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/BinaryProxy.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/BinaryProxy.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/CsvFile.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/CsvFile.cpp.obj"
   "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Disease.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Disease.cpp.obj"
-  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Json.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Json.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonAdapter.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/JsonAdapter.cpp.obj"
+  "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/JsonFile.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/JsonFile.cpp.obj"
   "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfDiseases.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/ListOfDiseases.cpp.obj"
   "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/ListOfPatients.cpp.obj"
   "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Patient.cpp" "D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/cmake-build-debug/src/CMakeFiles/App2Proyecto_lib.dir/Patient.cpp.obj"

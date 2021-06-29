@@ -684,11 +684,77 @@ vector
 string_view
 -
 
-../src/Json.h
-../lib/nlohmann/json.hpp
-../lib/nlohmann/json.hpp
+../src/Analysis.h
+string
+-
+sstream
+-
+vector
+-
+ListOfPatients.h
+../src/ListOfPatients.h
+
+../src/Analysis1.h
+vector
+-
+string
+-
+algorithm
+-
+ListOfPatients.h
+../src/ListOfPatients.h
+ListOfDiseases.h
+../src/ListOfDiseases.h
+Analysis.h
+../src/Analysis.h
+
+../src/Analysis2.h
+string
+-
+sstream
+-
 iomanip
 -
+Analysis.h
+../src/Analysis.h
+ListOfPatients.h
+../src/ListOfPatients.h
+
+../src/Analysis3.h
+string
+-
+sstream
+-
+vector
+-
+algorithm
+-
+ListOfPatients.h
+../src/ListOfPatients.h
+ListOfDiseases.h
+../src/ListOfDiseases.h
+Analysis.h
+../src/Analysis.h
+
+../src/Disease.h
+string
+-
+sstream
+-
+
+../src/JsonAdapter.h
+../lib/nlohmann/json.hpp
+../lib/nlohmann/json.hpp
+fstream
+-
+sstream
+-
+iostream
+-
+
+../src/JsonFile.h
+../lib/nlohmann/json.hpp
+../lib/nlohmann/json.hpp
 fstream
 -
 sstream
@@ -697,6 +763,18 @@ iostream
 -
 ListOfPatients.h
 ../src/ListOfPatients.h
+JsonAdapter.h
+../src/JsonAdapter.h
+
+../src/ListOfDiseases.h
+vector
+-
+string
+-
+sstream
+-
+Disease.h
+../src/Disease.h
 
 ../src/ListOfPatients.h
 Patient.h
@@ -724,9 +802,31 @@ string
 sstream
 -
 
-D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/JsonTEST.cpp
-Json.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analisis1TEST.cpp
+Analysis1.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analysis1.h
+ListOfPatients.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/ListOfPatients.h
+JsonFile.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/JsonFile.h
+vector
 -
-../googletest/include/gtest/gtest.h
-D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/googletest/include/gtest/gtest.h
+gtest/gtest.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/gtest/gtest.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analisis2TEST.cpp
+Analysis2.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analysis2.h
+JsonFile.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/JsonFile.h
+gtest/gtest.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/gtest/gtest.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analisis3TEST.cpp
+Analysis3.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/Analysis3.h
+JsonFile.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/JsonFile.h
+gtest/gtest.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/tst/gtest/gtest.h
 

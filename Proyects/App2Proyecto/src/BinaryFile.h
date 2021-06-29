@@ -10,12 +10,17 @@
 #include <sstream>
 #include <vector>
 #include "ListOfPatients.h"
+#include "BinaryProxy.h"
 
 class BinaryFile {
 public:
-    static void save(ListOfPatients &listOfPatients,const std::string &filename);
+    static void save(ListOfPatients &listOfPatients, const std::string &filename);
 
     static ListOfPatients read(const std::string &filename);
+
+    static std::ofstream openSaveBinaryFile(const std::string &filename);
+
+    static std::ifstream openReadBinaryFile(const std::string &filename);
 };
 
 #endif //PRODUCTMANAGER_BINARYFILE_H

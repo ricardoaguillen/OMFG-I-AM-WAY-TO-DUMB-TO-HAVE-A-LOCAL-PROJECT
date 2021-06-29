@@ -6,20 +6,16 @@
 #define APP1PROYECTO_JSONFILE_H
 
 #include "../lib/nlohmann/json.hpp"
-#include <iomanip>
 #include <fstream>
 #include <sstream>
 #include <iostream>
 #include "ListOfPatients.h"
+#include "JsonAdapter.h"
 
 using ::nlohmann::json;
 
-class Json {
+class JsonFile : public JsonAdapter {
 public:
-    static void save(const std::string &jsonData, const std::string &filename);
-
-    static std::string read(const std::string &filename);
-
     static std::string serialize(ListOfPatients &listOfPatients);
 
     static ListOfPatients deserialize(const std::string &_data);

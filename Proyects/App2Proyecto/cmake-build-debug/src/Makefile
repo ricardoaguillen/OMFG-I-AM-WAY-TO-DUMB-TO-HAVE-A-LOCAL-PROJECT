@@ -204,95 +204,125 @@ App2Proyecto_lib/fast:
 	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/build
 .PHONY : App2Proyecto_lib/fast
 
-Analisis1.obj: Analisis1.cpp.obj
+Analysis.obj: Analysis.cpp.obj
 
-.PHONY : Analisis1.obj
-
-# target to build an object file
-Analisis1.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis1.cpp.obj
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis1.cpp.obj
-.PHONY : Analisis1.cpp.obj
-
-Analisis1.i: Analisis1.cpp.i
-
-.PHONY : Analisis1.i
-
-# target to preprocess a source file
-Analisis1.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis1.cpp.i
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis1.cpp.i
-.PHONY : Analisis1.cpp.i
-
-Analisis1.s: Analisis1.cpp.s
-
-.PHONY : Analisis1.s
-
-# target to generate assembly for a file
-Analisis1.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis1.cpp.s
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis1.cpp.s
-.PHONY : Analisis1.cpp.s
-
-Analisis2.obj: Analisis2.cpp.obj
-
-.PHONY : Analisis2.obj
+.PHONY : Analysis.obj
 
 # target to build an object file
-Analisis2.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis2.cpp.obj
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis2.cpp.obj
-.PHONY : Analisis2.cpp.obj
+Analysis.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis.cpp.obj
+.PHONY : Analysis.cpp.obj
 
-Analisis2.i: Analisis2.cpp.i
+Analysis.i: Analysis.cpp.i
 
-.PHONY : Analisis2.i
+.PHONY : Analysis.i
 
 # target to preprocess a source file
-Analisis2.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis2.cpp.i
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis2.cpp.i
-.PHONY : Analisis2.cpp.i
+Analysis.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis.cpp.i
+.PHONY : Analysis.cpp.i
 
-Analisis2.s: Analisis2.cpp.s
+Analysis.s: Analysis.cpp.s
 
-.PHONY : Analisis2.s
+.PHONY : Analysis.s
 
 # target to generate assembly for a file
-Analisis2.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis2.cpp.s
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis2.cpp.s
-.PHONY : Analisis2.cpp.s
+Analysis.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis.cpp.s
+.PHONY : Analysis.cpp.s
 
-Analisis3.obj: Analisis3.cpp.obj
+Analysis1.obj: Analysis1.cpp.obj
 
-.PHONY : Analisis3.obj
+.PHONY : Analysis1.obj
 
 # target to build an object file
-Analisis3.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis3.cpp.obj
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis3.cpp.obj
-.PHONY : Analisis3.cpp.obj
+Analysis1.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis1.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis1.cpp.obj
+.PHONY : Analysis1.cpp.obj
 
-Analisis3.i: Analisis3.cpp.i
+Analysis1.i: Analysis1.cpp.i
 
-.PHONY : Analisis3.i
+.PHONY : Analysis1.i
 
 # target to preprocess a source file
-Analisis3.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis3.cpp.i
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis3.cpp.i
-.PHONY : Analisis3.cpp.i
+Analysis1.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis1.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis1.cpp.i
+.PHONY : Analysis1.cpp.i
 
-Analisis3.s: Analisis3.cpp.s
+Analysis1.s: Analysis1.cpp.s
 
-.PHONY : Analisis3.s
+.PHONY : Analysis1.s
 
 # target to generate assembly for a file
-Analisis3.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analisis3.cpp.s
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analisis3.cpp.s
-.PHONY : Analisis3.cpp.s
+Analysis1.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis1.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis1.cpp.s
+.PHONY : Analysis1.cpp.s
+
+Analysis2.obj: Analysis2.cpp.obj
+
+.PHONY : Analysis2.obj
+
+# target to build an object file
+Analysis2.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis2.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis2.cpp.obj
+.PHONY : Analysis2.cpp.obj
+
+Analysis2.i: Analysis2.cpp.i
+
+.PHONY : Analysis2.i
+
+# target to preprocess a source file
+Analysis2.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis2.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis2.cpp.i
+.PHONY : Analysis2.cpp.i
+
+Analysis2.s: Analysis2.cpp.s
+
+.PHONY : Analysis2.s
+
+# target to generate assembly for a file
+Analysis2.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis2.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis2.cpp.s
+.PHONY : Analysis2.cpp.s
+
+Analysis3.obj: Analysis3.cpp.obj
+
+.PHONY : Analysis3.obj
+
+# target to build an object file
+Analysis3.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis3.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis3.cpp.obj
+.PHONY : Analysis3.cpp.obj
+
+Analysis3.i: Analysis3.cpp.i
+
+.PHONY : Analysis3.i
+
+# target to preprocess a source file
+Analysis3.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis3.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis3.cpp.i
+.PHONY : Analysis3.cpp.i
+
+Analysis3.s: Analysis3.cpp.s
+
+.PHONY : Analysis3.s
+
+# target to generate assembly for a file
+Analysis3.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Analysis3.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Analysis3.cpp.s
+.PHONY : Analysis3.cpp.s
 
 BinaryFile.obj: BinaryFile.cpp.obj
 
@@ -324,6 +354,66 @@ BinaryFile.cpp.s:
 	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/BinaryFile.cpp.s
 .PHONY : BinaryFile.cpp.s
 
+BinaryProxy.obj: BinaryProxy.cpp.obj
+
+.PHONY : BinaryProxy.obj
+
+# target to build an object file
+BinaryProxy.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/BinaryProxy.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/BinaryProxy.cpp.obj
+.PHONY : BinaryProxy.cpp.obj
+
+BinaryProxy.i: BinaryProxy.cpp.i
+
+.PHONY : BinaryProxy.i
+
+# target to preprocess a source file
+BinaryProxy.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/BinaryProxy.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/BinaryProxy.cpp.i
+.PHONY : BinaryProxy.cpp.i
+
+BinaryProxy.s: BinaryProxy.cpp.s
+
+.PHONY : BinaryProxy.s
+
+# target to generate assembly for a file
+BinaryProxy.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/BinaryProxy.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/BinaryProxy.cpp.s
+.PHONY : BinaryProxy.cpp.s
+
+CsvFile.obj: CsvFile.cpp.obj
+
+.PHONY : CsvFile.obj
+
+# target to build an object file
+CsvFile.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/CsvFile.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/CsvFile.cpp.obj
+.PHONY : CsvFile.cpp.obj
+
+CsvFile.i: CsvFile.cpp.i
+
+.PHONY : CsvFile.i
+
+# target to preprocess a source file
+CsvFile.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/CsvFile.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/CsvFile.cpp.i
+.PHONY : CsvFile.cpp.i
+
+CsvFile.s: CsvFile.cpp.s
+
+.PHONY : CsvFile.s
+
+# target to generate assembly for a file
+CsvFile.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/CsvFile.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/CsvFile.cpp.s
+.PHONY : CsvFile.cpp.s
+
 Disease.obj: Disease.cpp.obj
 
 .PHONY : Disease.obj
@@ -354,35 +444,65 @@ Disease.cpp.s:
 	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Disease.cpp.s
 .PHONY : Disease.cpp.s
 
-Json.obj: Json.cpp.obj
+JsonAdapter.obj: JsonAdapter.cpp.obj
 
-.PHONY : Json.obj
+.PHONY : JsonAdapter.obj
 
 # target to build an object file
-Json.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Json.cpp.obj
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Json.cpp.obj
-.PHONY : Json.cpp.obj
+JsonAdapter.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonAdapter.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonAdapter.cpp.obj
+.PHONY : JsonAdapter.cpp.obj
 
-Json.i: Json.cpp.i
+JsonAdapter.i: JsonAdapter.cpp.i
 
-.PHONY : Json.i
+.PHONY : JsonAdapter.i
 
 # target to preprocess a source file
-Json.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Json.cpp.i
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Json.cpp.i
-.PHONY : Json.cpp.i
+JsonAdapter.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonAdapter.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonAdapter.cpp.i
+.PHONY : JsonAdapter.cpp.i
 
-Json.s: Json.cpp.s
+JsonAdapter.s: JsonAdapter.cpp.s
 
-.PHONY : Json.s
+.PHONY : JsonAdapter.s
 
 # target to generate assembly for a file
-Json.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/Json.cpp.s
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/Json.cpp.s
-.PHONY : Json.cpp.s
+JsonAdapter.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonAdapter.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonAdapter.cpp.s
+.PHONY : JsonAdapter.cpp.s
+
+JsonFile.obj: JsonFile.cpp.obj
+
+.PHONY : JsonFile.obj
+
+# target to build an object file
+JsonFile.cpp.obj:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonFile.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonFile.cpp.obj
+.PHONY : JsonFile.cpp.obj
+
+JsonFile.i: JsonFile.cpp.i
+
+.PHONY : JsonFile.i
+
+# target to preprocess a source file
+JsonFile.cpp.i:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonFile.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonFile.cpp.i
+.PHONY : JsonFile.cpp.i
+
+JsonFile.s: JsonFile.cpp.s
+
+.PHONY : JsonFile.s
+
+# target to generate assembly for a file
+JsonFile.cpp.s:
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_run.dir\build.make src/CMakeFiles/App2Proyecto_run.dir/JsonFile.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App2Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\App2Proyecto_lib.dir\build.make src/CMakeFiles/App2Proyecto_lib.dir/JsonFile.cpp.s
+.PHONY : JsonFile.cpp.s
 
 ListOfDiseases.obj: ListOfDiseases.cpp.obj
 
@@ -518,24 +638,36 @@ help:
 	@echo ... rebuild_cache
 	@echo ... App2Proyecto_lib
 	@echo ... App2Proyecto_run
-	@echo ... Analisis1.obj
-	@echo ... Analisis1.i
-	@echo ... Analisis1.s
-	@echo ... Analisis2.obj
-	@echo ... Analisis2.i
-	@echo ... Analisis2.s
-	@echo ... Analisis3.obj
-	@echo ... Analisis3.i
-	@echo ... Analisis3.s
+	@echo ... Analysis.obj
+	@echo ... Analysis.i
+	@echo ... Analysis.s
+	@echo ... Analysis1.obj
+	@echo ... Analysis1.i
+	@echo ... Analysis1.s
+	@echo ... Analysis2.obj
+	@echo ... Analysis2.i
+	@echo ... Analysis2.s
+	@echo ... Analysis3.obj
+	@echo ... Analysis3.i
+	@echo ... Analysis3.s
 	@echo ... BinaryFile.obj
 	@echo ... BinaryFile.i
 	@echo ... BinaryFile.s
+	@echo ... BinaryProxy.obj
+	@echo ... BinaryProxy.i
+	@echo ... BinaryProxy.s
+	@echo ... CsvFile.obj
+	@echo ... CsvFile.i
+	@echo ... CsvFile.s
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s
-	@echo ... Json.obj
-	@echo ... Json.i
-	@echo ... Json.s
+	@echo ... JsonAdapter.obj
+	@echo ... JsonAdapter.i
+	@echo ... JsonAdapter.s
+	@echo ... JsonFile.obj
+	@echo ... JsonFile.i
+	@echo ... JsonFile.s
 	@echo ... ListOfDiseases.obj
 	@echo ... ListOfDiseases.i
 	@echo ... ListOfDiseases.s

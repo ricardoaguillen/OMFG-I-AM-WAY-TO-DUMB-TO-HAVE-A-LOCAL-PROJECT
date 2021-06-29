@@ -6,21 +6,75 @@
 
 #IncludeRegexTransform: 
 
-D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.cpp
-Analisis1.h
-D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.cpp
+Analysis.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h
 
-D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analisis1.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h
+string
+-
+sstream
+-
+vector
+-
+ListOfPatients.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.cpp
+Analysis1.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis1.h
 vector
 -
 string
 -
-regex
+algorithm
 -
 ListOfPatients.h
 D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
 ListOfDiseases.h
 D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfDiseases.h
+Analysis.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.cpp
+Analysis2.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.h
+bits/stdc++.h
+-
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis2.h
+string
+-
+sstream
+-
+iomanip
+-
+Analysis.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h
+ListOfPatients.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.cpp
+Analysis3.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.h
+
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis3.h
+string
+-
+sstream
+-
+vector
+-
+algorithm
+-
+ListOfPatients.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfPatients.h
+ListOfDiseases.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/ListOfDiseases.h
+Analysis.h
+D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Analysis.h
 
 D:/General Files/Coding Files/Clion Projects/Proyects/App2Proyecto/src/Disease.h
 string
