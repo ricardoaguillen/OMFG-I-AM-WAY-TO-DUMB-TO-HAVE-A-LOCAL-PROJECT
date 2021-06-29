@@ -61,10 +61,10 @@ RM = "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto"
+CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug"
 
 # Utility rule file for NightlyStart.
 
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Pr
 include lib/yaml-cpp/CMakeFiles/NightlyStart.dir/progress.make
 
 lib/yaml-cpp/CMakeFiles/NightlyStart:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" && "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\ctest.exe" -D NightlyStart
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" && "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\ctest.exe" -D NightlyStart
 
 NightlyStart: lib/yaml-cpp/CMakeFiles/NightlyStart
 NightlyStart: lib/yaml-cpp/CMakeFiles/NightlyStart.dir/build.make
@@ -85,10 +85,10 @@ lib/yaml-cpp/CMakeFiles/NightlyStart.dir/build: NightlyStart
 .PHONY : lib/yaml-cpp/CMakeFiles/NightlyStart.dir/build
 
 lib/yaml-cpp/CMakeFiles/NightlyStart.dir/clean:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" && $(CMAKE_COMMAND) -P CMakeFiles\NightlyStart.dir\cmake_clean.cmake
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" && $(CMAKE_COMMAND) -P CMakeFiles\NightlyStart.dir\cmake_clean.cmake
 .PHONY : lib/yaml-cpp/CMakeFiles/NightlyStart.dir/clean
 
 lib/yaml-cpp/CMakeFiles/NightlyStart.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\lib\yaml-cpp" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\CMakeFiles\NightlyStart.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\lib\yaml-cpp" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\CMakeFiles\NightlyStart.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/yaml-cpp/CMakeFiles/NightlyStart.dir/depend
 

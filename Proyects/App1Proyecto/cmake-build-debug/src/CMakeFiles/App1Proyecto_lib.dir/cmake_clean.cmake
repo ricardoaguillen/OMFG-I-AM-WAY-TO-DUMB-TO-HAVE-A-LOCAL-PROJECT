@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/App1Proyecto_lib.dir/CsvFile.cpp.obj"
   "CMakeFiles/App1Proyecto_lib.dir/Disease.cpp.obj"
   "CMakeFiles/App1Proyecto_lib.dir/GeneticData.cpp.obj"
+  "CMakeFiles/App1Proyecto_lib.dir/JsonAdapter.cpp.obj"
   "CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj"
   "CMakeFiles/App1Proyecto_lib.dir/ListOfDiseases.cpp.obj"
   "CMakeFiles/App1Proyecto_lib.dir/ListOfPatients.cpp.obj"

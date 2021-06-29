@@ -1,4 +1,4 @@
-# Install script for directory: D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/lib/yaml-cpp
+# Install script for directory: D:/General Files/Coding Files/Clion Projects/App1Proyecto/lib/yaml-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/lib/yaml-cpp/util/cmake_install.cmake")
+  include("D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/lib/yaml-cpp/util/cmake_install.cmake")
 
 endif()
 

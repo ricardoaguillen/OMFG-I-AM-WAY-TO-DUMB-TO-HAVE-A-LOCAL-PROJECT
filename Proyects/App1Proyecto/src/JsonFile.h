@@ -11,14 +11,12 @@
 #include <sstream>
 #include <iostream>
 #include <ListOfPatients.h>
+#include <JsonAdapter.h>
 #include <GeneticData.h>
 using ::nlohmann::json;
 
-class JsonFile {
+class JsonFile : public JsonAdapter {
 public:
-    static void save(const std::string &jsonData, const std::string &filename);
-
-    static std::string read(const std::string &filename);
 
     static std::string serialize(ListOfPatients &listOfPatients);
 

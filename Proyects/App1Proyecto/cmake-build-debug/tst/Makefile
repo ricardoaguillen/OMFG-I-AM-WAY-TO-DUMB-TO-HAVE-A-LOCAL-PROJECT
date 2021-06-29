@@ -66,10 +66,10 @@ RM = "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto"
+CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst\\CMakeFiles\progress.marks"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" 0
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst\\CMakeFiles\progress.marks"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/clean
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,23 +161,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -P "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -P "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tst/CMakeFiles/App1Proyecto_tst.dir/rule:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/CMakeFiles/App1Proyecto_tst.dir/rule
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/CMakeFiles/App1Proyecto_tst.dir/rule
 .PHONY : tst/CMakeFiles/App1Proyecto_tst.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ App1Proyecto_tst: tst/CMakeFiles/App1Proyecto_tst.dir/rule
 
 # fast build rule for target.
 App1Proyecto_tst/fast:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/build
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/build
 .PHONY : App1Proyecto_tst/fast
 
 CsvTEST.obj: CsvTEST.cpp.obj
@@ -196,7 +196,7 @@ CsvTEST.obj: CsvTEST.cpp.obj
 
 # target to build an object file
 CsvTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj
 .PHONY : CsvTEST.cpp.obj
 
 CsvTEST.i: CsvTEST.cpp.i
@@ -205,7 +205,7 @@ CsvTEST.i: CsvTEST.cpp.i
 
 # target to preprocess a source file
 CsvTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.i
 .PHONY : CsvTEST.cpp.i
 
 CsvTEST.s: CsvTEST.cpp.s
@@ -214,7 +214,7 @@ CsvTEST.s: CsvTEST.cpp.s
 
 # target to generate assembly for a file
 CsvTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.s
 .PHONY : CsvTEST.cpp.s
 
 GeneticDataTEST.obj: GeneticDataTEST.cpp.obj
@@ -223,7 +223,7 @@ GeneticDataTEST.obj: GeneticDataTEST.cpp.obj
 
 # target to build an object file
 GeneticDataTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj
 .PHONY : GeneticDataTEST.cpp.obj
 
 GeneticDataTEST.i: GeneticDataTEST.cpp.i
@@ -232,7 +232,7 @@ GeneticDataTEST.i: GeneticDataTEST.cpp.i
 
 # target to preprocess a source file
 GeneticDataTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.i
 .PHONY : GeneticDataTEST.cpp.i
 
 GeneticDataTEST.s: GeneticDataTEST.cpp.s
@@ -241,7 +241,7 @@ GeneticDataTEST.s: GeneticDataTEST.cpp.s
 
 # target to generate assembly for a file
 GeneticDataTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.s
 .PHONY : GeneticDataTEST.cpp.s
 
 JsonTEST.obj: JsonTEST.cpp.obj
@@ -250,7 +250,7 @@ JsonTEST.obj: JsonTEST.cpp.obj
 
 # target to build an object file
 JsonTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj
 .PHONY : JsonTEST.cpp.obj
 
 JsonTEST.i: JsonTEST.cpp.i
@@ -259,7 +259,7 @@ JsonTEST.i: JsonTEST.cpp.i
 
 # target to preprocess a source file
 JsonTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.i
 .PHONY : JsonTEST.cpp.i
 
 JsonTEST.s: JsonTEST.cpp.s
@@ -268,7 +268,7 @@ JsonTEST.s: JsonTEST.cpp.s
 
 # target to generate assembly for a file
 JsonTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.s
 .PHONY : JsonTEST.cpp.s
 
 ListOfDiseasesTEST.obj: ListOfDiseasesTEST.cpp.obj
@@ -277,7 +277,7 @@ ListOfDiseasesTEST.obj: ListOfDiseasesTEST.cpp.obj
 
 # target to build an object file
 ListOfDiseasesTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj
 .PHONY : ListOfDiseasesTEST.cpp.obj
 
 ListOfDiseasesTEST.i: ListOfDiseasesTEST.cpp.i
@@ -286,7 +286,7 @@ ListOfDiseasesTEST.i: ListOfDiseasesTEST.cpp.i
 
 # target to preprocess a source file
 ListOfDiseasesTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.i
 .PHONY : ListOfDiseasesTEST.cpp.i
 
 ListOfDiseasesTEST.s: ListOfDiseasesTEST.cpp.s
@@ -295,7 +295,7 @@ ListOfDiseasesTEST.s: ListOfDiseasesTEST.cpp.s
 
 # target to generate assembly for a file
 ListOfDiseasesTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.s
 .PHONY : ListOfDiseasesTEST.cpp.s
 
 ListOfPatientsTEST.obj: ListOfPatientsTEST.cpp.obj
@@ -304,7 +304,7 @@ ListOfPatientsTEST.obj: ListOfPatientsTEST.cpp.obj
 
 # target to build an object file
 ListOfPatientsTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj
 .PHONY : ListOfPatientsTEST.cpp.obj
 
 ListOfPatientsTEST.i: ListOfPatientsTEST.cpp.i
@@ -313,7 +313,7 @@ ListOfPatientsTEST.i: ListOfPatientsTEST.cpp.i
 
 # target to preprocess a source file
 ListOfPatientsTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.i
 .PHONY : ListOfPatientsTEST.cpp.i
 
 ListOfPatientsTEST.s: ListOfPatientsTEST.cpp.s
@@ -322,7 +322,7 @@ ListOfPatientsTEST.s: ListOfPatientsTEST.cpp.s
 
 # target to generate assembly for a file
 ListOfPatientsTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.s
 .PHONY : ListOfPatientsTEST.cpp.s
 
 YmalFileTEST.obj: YmalFileTEST.cpp.obj
@@ -331,7 +331,7 @@ YmalFileTEST.obj: YmalFileTEST.cpp.obj
 
 # target to build an object file
 YmalFileTEST.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj
 .PHONY : YmalFileTEST.cpp.obj
 
 YmalFileTEST.i: YmalFileTEST.cpp.i
@@ -340,7 +340,7 @@ YmalFileTEST.i: YmalFileTEST.cpp.i
 
 # target to preprocess a source file
 YmalFileTEST.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.i
 .PHONY : YmalFileTEST.cpp.i
 
 YmalFileTEST.s: YmalFileTEST.cpp.s
@@ -349,7 +349,7 @@ YmalFileTEST.s: YmalFileTEST.cpp.s
 
 # target to generate assembly for a file
 YmalFileTEST.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.s
 .PHONY : YmalFileTEST.cpp.s
 
 main.obj: main.cpp.obj
@@ -358,7 +358,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -367,7 +367,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -376,7 +376,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\App1Proyecto_tst.dir\build.make tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -424,7 +424,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -P "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -P "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

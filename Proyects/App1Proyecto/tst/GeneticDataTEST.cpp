@@ -56,20 +56,19 @@ TEST(GeneticData, AnalisePatientSequenceTEST) {
     EXPECT_NO_THROW(GeneticData::findDiseases(testDisease,testPatient));
     testPatient.setPossibleDisease(GeneticData::findDiseases(testDisease,testPatient));
     ASSERT_NO_THROW(testPatient.toString());
-//  std::cout << testPatient.toString();
-
+    std::cout << testPatient.toString();
 }
 
 TEST(ListOfPatientsTEST, AnalisePatientsSequencesTEST) {
     setlocale(LC_ALL, "");
-    EXPECT_NO_THROW(ListOfPatients examplePatients);
-    EXPECT_NO_THROW(ListOfDiseases exampleDiseases(CsvFile::read("../../files/archivo_csv/enfermedades.csv")));
-    ListOfDiseases listOfDiseases(CsvFile::read("../../files/archivo_csv/enfermedades.csv"));
-    ListOfPatients listOfPatients(JsonFile::deserialize(JsonFile::read("../../files/Patients.json")));
+    EXPECT_NO_THROW( ListOfPatients examplePatients );
+    EXPECT_NO_THROW( ListOfDiseases exampleDiseases( CsvFile::read("../../files/archivo_csv/enfermedades.csv") ));
+    ListOfDiseases listOfDiseases( CsvFile::read("../../files/archivo_csv/enfermedades.csv") );
+    ListOfPatients listOfPatients( JsonFile::deserialize(JsonFile::read("../../files/Patients.json") ) );
     EXPECT_NO_THROW(listOfPatients.ProcessGeneticData(listOfDiseases));
     listOfPatients.ProcessGeneticData(listOfDiseases);
-    EXPECT_NO_THROW(JsonFile::save(JsonFile::serialize(listOfPatients), "../../files/DataTest.json"));
-    JsonFile::save(JsonFile::serialize(listOfPatients), "../../files/datos_geneticos.json");
     ASSERT_NO_THROW(listOfPatients.toString());
     std::cout << listOfPatients.toString();
+    EXPECT_NO_THROW(JsonFile::save(JsonFile::serialize(listOfPatients),"../../files/datos_geneticos.json"));
+    JsonFile::save(JsonFile::serialize(listOfPatients),"../../files/datos_geneticos.json");
 }

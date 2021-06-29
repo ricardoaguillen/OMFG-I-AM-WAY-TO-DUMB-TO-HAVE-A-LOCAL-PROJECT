@@ -50,6 +50,7 @@ tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../lib/nlohmann/jso
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/CsvFile.h
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/Disease.h
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/GeneticData.h
+tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/JsonAdapter.h
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/JsonFile.h
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/ListOfDiseases.h
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../src/ListOfPatients.h
@@ -80,6 +81,7 @@ tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../lib/googletest/googlete
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../lib/nlohmann/json.hpp
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/Disease.h
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/GeneticData.h
+tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/JsonAdapter.h
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/JsonFile.h
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/ListOfDiseases.h
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../src/ListOfPatients.h
@@ -135,6 +137,7 @@ tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../lib/googletes
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../lib/nlohmann/json.hpp
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/Disease.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/GeneticData.h
+tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/JsonAdapter.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/JsonFile.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/ListOfDiseases.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/ListOfPatients.h
@@ -142,6 +145,37 @@ tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/Patient.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../src/Person.h
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../tst/ListOfPatientsTEST.cpp
 
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/binary.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/dll.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/emitter.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/emitterdef.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/emittermanip.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/emitterstyle.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/exceptions.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/mark.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/convert.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/impl.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/iterator.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/memory.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/node.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/node_data.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/emit.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/impl.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/iterator.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/node.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/parse.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/ptr.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/node/type.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/noexcept.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/null.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/ostream_wrapper.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/parser.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/stlemitter.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/traits.h
+tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../lib/yaml-cpp/include/yaml-cpp/yaml.h
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../tst/YmalFileTEST.cpp
 
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj: ../lib/googletest/googletest/include/gtest/gtest-death-test.h

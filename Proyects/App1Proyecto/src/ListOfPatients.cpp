@@ -30,7 +30,6 @@ void ListOfPatients::ProcessGeneticData(ListOfDiseases &listOfDiseases) {
     }
 }
 
-
 void ListOfPatients::add(Patient paciente) {
     patients.push_back(paciente);
 }

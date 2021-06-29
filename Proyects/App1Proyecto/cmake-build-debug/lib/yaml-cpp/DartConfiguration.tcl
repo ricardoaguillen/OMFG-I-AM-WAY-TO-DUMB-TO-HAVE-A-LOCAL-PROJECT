@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/lib/yaml-cpp
-BuildDirectory: D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/lib/yaml-cpp
+SourceDirectory: D:/General Files/Coding Files/Clion Projects/App1Proyecto/lib/yaml-cpp
+BuildDirectory: D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/lib/yaml-cpp
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "D:/Programas/CLion 2020.3.2/bin/cmake/win/bin/cmake.exe" "D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/lib/yaml-cpp"
+ConfigureCommand: "D:/Programas/CLion 2020.3.2/bin/cmake/win/bin/cmake.exe" "D:/General Files/Coding Files/Clion Projects/App1Proyecto/lib/yaml-cpp"
 MakeCommand: D:/Programas/CLion\ 2020.3.2/bin/cmake/win/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

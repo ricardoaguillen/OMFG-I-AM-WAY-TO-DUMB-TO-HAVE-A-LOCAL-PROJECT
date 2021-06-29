@@ -61,10 +61,10 @@ RM = "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto"
+CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/depend.make
@@ -78,16 +78,16 @@ include lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/flags.make
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj: lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/flags.make
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj: lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/includes_CXX.rsp
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj: ../lib/yaml-cpp/util/sandbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp"
 
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp" > CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp" > CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.i
 
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp" -o CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\lib\yaml-cpp\util\sandbox.cpp" -o CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.s
 
 # Object files for target yaml-cpp-sandbox
 yaml__cpp__sandbox_OBJECTS = \
@@ -102,8 +102,8 @@ lib/yaml-cpp/util/sandbox.exe: lib/yaml-cpp/libyaml-cppd.a
 lib/yaml-cpp/util/sandbox.exe: lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/linklibs.rsp
 lib/yaml-cpp/util/sandbox.exe: lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/objects1.rsp
 lib/yaml-cpp/util/sandbox.exe: lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sandbox.exe"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\yaml-cpp-sandbox.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sandbox.exe"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\yaml-cpp-sandbox.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build: lib/yaml-cpp/util/sandbox.exe
@@ -111,10 +111,10 @@ lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build: lib/yaml-cpp/util/sandb
 .PHONY : lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build
 
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/clean:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && $(CMAKE_COMMAND) -P CMakeFiles\yaml-cpp-sandbox.dir\cmake_clean.cmake
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" && $(CMAKE_COMMAND) -P CMakeFiles\yaml-cpp-sandbox.dir\cmake_clean.cmake
 .PHONY : lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/clean
 
 lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\lib\yaml-cpp\util" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util\CMakeFiles\yaml-cpp-sandbox.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\lib\yaml-cpp\util" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\lib\yaml-cpp\util\CMakeFiles\yaml-cpp-sandbox.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/depend
 

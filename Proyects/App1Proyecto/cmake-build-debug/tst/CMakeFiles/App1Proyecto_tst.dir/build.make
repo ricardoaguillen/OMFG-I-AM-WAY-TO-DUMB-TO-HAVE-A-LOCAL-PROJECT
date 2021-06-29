@@ -61,10 +61,10 @@ RM = "D:\Programas\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto"
+CMAKE_SOURCE_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include tst/CMakeFiles/App1Proyecto_tst.dir/depend.make
@@ -78,100 +78,100 @@ include tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj: ../tst/CsvTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\CsvTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\CsvTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\CsvTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\CsvTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/CsvTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\CsvTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\CsvTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\CsvTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj: ../tst/GeneticDataTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\GeneticDataTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\GeneticDataTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\GeneticDataTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\GeneticDataTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/GeneticDataTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\GeneticDataTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\GeneticDataTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\GeneticDataTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj: ../tst/JsonTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\JsonTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\JsonTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\JsonTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\JsonTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/JsonTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\JsonTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\JsonTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\JsonTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj: ../tst/ListOfDiseasesTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfDiseasesTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfDiseasesTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfDiseasesTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfDiseasesTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/ListOfDiseasesTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfDiseasesTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfDiseasesTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\ListOfDiseasesTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj: ../tst/ListOfPatientsTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfPatientsTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfPatientsTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfPatientsTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfPatientsTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/ListOfPatientsTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\ListOfPatientsTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\ListOfPatientsTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\ListOfPatientsTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj: ../tst/YmalFileTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\YmalFileTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\YmalFileTEST.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\YmalFileTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\YmalFileTEST.cpp" > CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/YmalFileTEST.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\YmalFileTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\YmalFileTEST.cpp" -o CMakeFiles\App1Proyecto_tst.dir\YmalFileTEST.cpp.s
 
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/flags.make
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj: tst/CMakeFiles/App1Proyecto_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj: ../tst/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\main.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.obj"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\App1Proyecto_tst.dir\main.cpp.obj -c "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\main.cpp"
 
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App1Proyecto_tst.dir/main.cpp.i"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\main.cpp" > CMakeFiles\App1Proyecto_tst.dir\main.cpp.i
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\main.cpp" > CMakeFiles\App1Proyecto_tst.dir\main.cpp.i
 
 tst/CMakeFiles/App1Proyecto_tst.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App1Proyecto_tst.dir/main.cpp.s"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst\main.cpp" -o CMakeFiles\App1Proyecto_tst.dir\main.cpp.s
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst\main.cpp" -o CMakeFiles\App1Proyecto_tst.dir\main.cpp.s
 
 # Object files for target App1Proyecto_tst
 App1Proyecto_tst_OBJECTS = \
@@ -199,8 +199,8 @@ tst/App1Proyecto_tst.exe: lib/libgtestd.a
 tst/App1Proyecto_tst.exe: tst/CMakeFiles/App1Proyecto_tst.dir/linklibs.rsp
 tst/App1Proyecto_tst.exe: tst/CMakeFiles/App1Proyecto_tst.dir/objects1.rsp
 tst/App1Proyecto_tst.exe: tst/CMakeFiles/App1Proyecto_tst.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable App1Proyecto_tst.exe"
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\App1Proyecto_tst.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable App1Proyecto_tst.exe"
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\App1Proyecto_tst.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tst/CMakeFiles/App1Proyecto_tst.dir/build: tst/App1Proyecto_tst.exe
@@ -208,10 +208,10 @@ tst/CMakeFiles/App1Proyecto_tst.dir/build: tst/App1Proyecto_tst.exe
 .PHONY : tst/CMakeFiles/App1Proyecto_tst.dir/build
 
 tst/CMakeFiles/App1Proyecto_tst.dir/clean:
-	cd /d "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" && $(CMAKE_COMMAND) -P CMakeFiles\App1Proyecto_tst.dir\cmake_clean.cmake
+	cd /d "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" && $(CMAKE_COMMAND) -P CMakeFiles\App1Proyecto_tst.dir\cmake_clean.cmake
 .PHONY : tst/CMakeFiles/App1Proyecto_tst.dir/clean
 
 tst/CMakeFiles/App1Proyecto_tst.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\tst" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst" "D:\General Files\Coding Files\Clion Projects\Proyects\App1Proyecto\cmake-build-debug\tst\CMakeFiles\App1Proyecto_tst.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\General Files\Coding Files\Clion Projects\App1Proyecto" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\tst" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst" "D:\General Files\Coding Files\Clion Projects\App1Proyecto\cmake-build-debug\tst\CMakeFiles\App1Proyecto_tst.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : tst/CMakeFiles/App1Proyecto_tst.dir/depend
 

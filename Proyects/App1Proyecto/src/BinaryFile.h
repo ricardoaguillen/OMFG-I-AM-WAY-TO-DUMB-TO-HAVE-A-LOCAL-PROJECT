@@ -15,7 +15,7 @@ class BinaryFile {
 public:
     static void save(ListOfPatients &listOfPatients,const std::string &filename);
 
-    static std::string read(const std::string &filename);
+    static ListOfPatients read(const std::string &filename);
 };
 
 #endif //PRODUCTMANAGER_BINARYFILE_H

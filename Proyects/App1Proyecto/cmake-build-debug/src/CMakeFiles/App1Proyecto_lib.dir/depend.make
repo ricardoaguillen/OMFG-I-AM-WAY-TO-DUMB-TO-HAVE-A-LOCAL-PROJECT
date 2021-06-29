@@ -29,8 +29,13 @@ src/CMakeFiles/App1Proyecto_lib.dir/GeneticData.cpp.obj: ../src/ListOfPatients.h
 src/CMakeFiles/App1Proyecto_lib.dir/GeneticData.cpp.obj: ../src/Patient.h
 src/CMakeFiles/App1Proyecto_lib.dir/GeneticData.cpp.obj: ../src/Person.h
 
+src/CMakeFiles/App1Proyecto_lib.dir/JsonAdapter.cpp.obj: ../lib/nlohmann/json.hpp
+src/CMakeFiles/App1Proyecto_lib.dir/JsonAdapter.cpp.obj: ../src/JsonAdapter.cpp
+src/CMakeFiles/App1Proyecto_lib.dir/JsonAdapter.cpp.obj: ../src/JsonAdapter.h
+
 src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/Disease.h
 src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/GeneticData.h
+src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/JsonAdapter.h
 src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/ListOfDiseases.h
 src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/ListOfPatients.h
 src/CMakeFiles/App1Proyecto_lib.dir/JsonFile.cpp.obj: ../src/Patient.h

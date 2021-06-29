@@ -1,4 +1,4 @@
-# Install script for directory: D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/tst
+# Install script for directory: D:/General Files/Coding Files/Clion Projects/App1Proyecto/tst
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

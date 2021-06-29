@@ -23,7 +23,7 @@ std::string GeneticData::findDiseases(Disease disease, Patient patient) {
             for (int j = 0; j < diseaseSequence.size(); ++j) {
                 if (patientSequence[i+counter] == diseaseSequence[j]) counter++;
                 if(counter == diseaseSequence.size()){
-                    diseasesNames << disease.getDiseaseName() << ",";
+                    diseasesNames << disease.getDiseaseName() << " ";
                 }
             }
         }

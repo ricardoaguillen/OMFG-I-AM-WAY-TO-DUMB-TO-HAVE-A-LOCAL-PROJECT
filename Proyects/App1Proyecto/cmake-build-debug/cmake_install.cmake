@@ -1,4 +1,4 @@
-# Install script for directory: D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto
+# Install script for directory: D:/General Files/Coding Files/Clion Projects/App1Proyecto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/src/cmake_install.cmake")
+  include("D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/tst/cmake_install.cmake")
+  include("D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/tst/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/lib/yaml-cpp/cmake_install.cmake")
+  include("D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/lib/yaml-cpp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/lib/googletest/cmake_install.cmake")
+  include("D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/lib/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/General Files/Coding Files/Clion Projects/Proyects/App1Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/General Files/Coding Files/Clion Projects/App1Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
